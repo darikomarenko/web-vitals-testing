@@ -1,0 +1,47 @@
+.app {
+  padding: 28px 24px 64px;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hud {
+  width: 100%;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  letter-spacing: -0.8px;
+  margin: 0 0 12px;
+}
+
+.hero p {
+  max-width: 62ch;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.tab-active {
+  background: var(--text-h);
+  color: var(--bg);
+  border-color: var(--text-h);
+}
+
+a {
+  color: var(--text-h);
+}

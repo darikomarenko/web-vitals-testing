@@ -1,0 +1,139 @@
+.lab {
+  text-align: left;
+  padding: 20px 0 8px;
+  border-top: 1px solid var(--border);
+}
+
+.lab h2 {
+  margin-top: 8px;
+}
+
+.lab p {
+  margin: 0 0 12px;
+}
+
+.lab-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+  margin: 12px 0 16px;
+}
+
+.lab-controls label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.lab-range {
+  min-width: 280px;
+}
+
+.lab-range input[type='range'] {
+  flex: 1;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background: var(--bg);
+  color: var(--text-h);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+}
+
+button:hover {
+  border-color: var(--text-h);
+}
+
+.lab-hit {
+  min-width: 220px;
+  min-height: 48px;
+  font-size: 16px;
+}
+
+.lab-note {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.cls-stage {
+  border: 1px solid var(--border);
+  padding: 12px;
+  background: var(--code-bg);
+}
+
+.cls-article h3 {
+  margin: 0 0 8px;
+  color: var(--text-h);
+}
+
+.cls-page-banner {
+  display: grid;
+  place-items: center;
+  height: 50vh;
+  min-height: 280px;
+  background: #c44536;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cls-banner {
+  background: #c44536;
+  color: #fff;
+  padding: 28px 16px;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.cls-slot {
+  min-height: 88px;
+  margin-bottom: 12px;
+  border: 1px dashed var(--border);
+  display: flex;
+  align-items: stretch;
+}
+
+.cls-slot .cls-banner {
+  flex: 1;
+  margin: 0;
+}
+
+.cls-placeholder {
+  margin: auto;
+  font-size: 13px;
+  color: var(--text);
+}
+
+.cls-hero {
+  height: 180px;
+  background: #2e5aac;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  margin: 12px 0;
+}
+
+.cls-media {
+  aspect-ratio: 16 / 6;
+  background: #d9d6ce;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+.cls-media .cls-hero {
+  height: 100%;
+  margin: 0;
+}
+
+.cls-filler {
+  height: 55vh;
+  margin-top: 12px;
+  background: #d9d6ce;
+}
